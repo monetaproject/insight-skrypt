@@ -1,10 +1,9 @@
 # *MUE insight*
+All support questions for this fork should be directed to - [upgradeadvice](https://github.com/upgradeadvice)
 
 *MUE insight* is an open-source bitcoin blockchain explorer with complete REST
 and websocket APIs. Insight runs in NodeJS, uses AngularJS for the
 front-end and LevelDB for storage.
-
-*All support questions for this fork should be directed to [upgradeadvice](https://github.com/upgradeadvice)
 
 *Insight* project is now split into two repositories. One for the [API](https://github.com/bitpay/insight-api) and for the front-end. This repository is for the front-end, which will install the API as a NPM dependency.
 
