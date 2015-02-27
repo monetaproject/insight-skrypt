@@ -37,7 +37,7 @@
   </div>
   <div data-ng-if="block.hash">
     <div class="well well-sm ellipsis">
-      <strong>BlockHash</strong> 
+      <strong>BlockHash</strong>
       <span class="txid text-muted">{{block.hash}}</span>
       <span class="btn-copy" clip-copy="block.hash"></span>
     </div>
@@ -57,11 +57,12 @@
               <span data-ng-show="!block.isMainChain" class="text-danger"> <span class="glyphicon glyphicon-warning-sign"></span> (Orphaned)</span>
             </td>
           </tr>
+          <!-- /bitcore/lib/Block.js:223 //someone with more time could fix this
           <tr>
             <td><strong translate>Block Reward</strong></td>
             <td class="text-right text-muted">{{$root.currency.getConvertion(block.reward) || block.reward + ' MUE'}}</td>
-          </tr> 
-          <tr>
+          </tr>
+          <tr> -->
             <td><strong translate>Timestamp</strong></td>
             <td class="text-right text-muted">{{block.time * 1000 | date:'medium'}}</td>
           </tr>
@@ -125,4 +126,3 @@
   </div>
 
 </section>
-
