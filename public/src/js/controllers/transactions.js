@@ -1,5 +1,11 @@
 'use strict';
 
+angular.module("insight.system").controller("Top100Controller",
+function($scope, $http) {
+    $http.get("json/top100.json").success(function(data) {
+    $scope.balances = data
+  });
+});
 angular.module('insight.transactions').controller('transactionsController',
 function($scope, $rootScope, $routeParams, $location, Global, Transaction, TransactionsByBlock, TransactionsByAddress) {
   $scope.global = Global;
@@ -161,7 +167,7 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
     $scope.v_index = parseInt($routeParams.v_index);
     $scope.itemsExpanded = true;
   }
-  
+
   //Init without txs
   $scope.txs = [];
 
