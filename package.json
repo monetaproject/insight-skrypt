@@ -46,6 +46,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
   },
   "dependencies": {
+    "connect-modrewrite": "^0.7.11",
     "insight-bitcore-api": "upgradeadvice/insight-api"
   },
   "devDependencies": {

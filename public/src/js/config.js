@@ -7,7 +7,15 @@ angular.module('insight').config(function($routeProvider) {
       templateUrl: '/views/block.html',
       title: 'MonetaryUnit Block '
     }).
+    when('/blockhash/:blockHash', {
+      templateUrl: '/views/block.html',
+      title: 'MonetaryUnit Block '
+    }).
     when('/block-index/:blockHeight', {
+      controller: 'BlocksController',
+      templateUrl: '/views/redirect.html'
+    }).
+    when('/height/:blockHeight', {
       controller: 'BlocksController',
       templateUrl: '/views/redirect.html'
     }).
@@ -16,6 +24,10 @@ angular.module('insight').config(function($routeProvider) {
       title: 'Broadcast Raw Transaction'
     }).
     when('/tx/:txId/:v_type?/:v_index?', {
+      templateUrl: '/views/transaction.html',
+      title: 'MonetaryUnit Transaction '
+    }).
+    when('/txid/:txId/:v_type?/:v_index?', {
       templateUrl: '/views/transaction.html',
       title: 'MonetaryUnit Transaction '
     }).
