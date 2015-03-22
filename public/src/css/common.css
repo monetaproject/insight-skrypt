@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #6C9032 !important;
+  background-color: #DB8A0D !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -128,7 +128,7 @@ margin-left: 0;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #6C9032;
+  background-color: #DB8A0D;
   color: #fff;
 }
 
@@ -201,14 +201,14 @@ margin-left: 0;
 #search { color: #fff; }
 
 #search::-webkit-input-placeholder {
-  color: #BCDF7E;
+  color: #DFCB7E;
   font-family: Droid Sans;
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
-  color: #BCDF7E;
+  color: #DFCB7E;
   font-family: Droid Sans;
   font-weight: 100;
 }
@@ -216,7 +216,7 @@ margin-left: 0;
 .status {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #597338;
+  background-color: #D28700;
   border-radius: 3px;
   margin: 15px 0;
   padding: 8px 10px;
@@ -316,7 +316,7 @@ margin-left: 0;
   border-radius: 2px;
 }
 .btn-primary {
-  background-color: #8DC429;
+  background-color: #DDBA30;
   border: 2px solid #76AF0F;
 }
 
@@ -363,7 +363,7 @@ margin-left: 0;
 }
 
 .txvalues-primary {
-  background-color: #8DC429;
+  background-color: #DDBA30;
 }
 
 .txvalues-default {
@@ -386,7 +386,7 @@ margin-left: 0;
   font-size: 14px;
   font-weight: normal;
 }
-.progress-bar-info { background-color: #8DC429; }
+.progress-bar-info { background-color: #DDBA30; }
 
 /* Set the fixed height of the footer here */
 #footer {
@@ -826,7 +826,7 @@ a.v_highlight_more {
   }
   .txvalues-primary {
     background: none;
-    color: #8DC429;
+    color: #DDBA30;
   }
   .txvalues-default {
     background: none;
