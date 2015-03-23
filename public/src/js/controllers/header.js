@@ -17,6 +17,9 @@ angular.module('insight.system').controller('HeaderController',
       'title': 'Top100',
       'link': 'top100'
     }, {
+      'title': 'Charts',
+      'link': 'charts'
+    }, {
       'title': 'Status',
       'link': 'status'
     }];

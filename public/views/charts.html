@@ -1,0 +1,11 @@
+<div data-ng-include src="'/views/includes/connection.html'"></div>
+<div class="col-xs-12 col-md-8" data-ng-controller="ChartController">
+  <h1>Difficulty and Hashrate</h1>
+  <p>Updated every 5 minutes.</p>
+	<span ng-show="chartType==='line'">
+	</span>
+
+	<br />
+
+	<div ac-chart="chartType" ac-data="data" ac-config="config" style="width: 70em; height: 480px; margin: 0 1%;"></div>
+</div>

@@ -13,6 +13,8 @@ angular.module('insight',[
   'monospaced.qrcode',
   'gettext',
   'angularMoment',
+  'charts',
+  'angularCharts',
   'insight.system',
   'insight.socket',
   'insight.blocks',
@@ -35,3 +37,5 @@ angular.module('insight.status', []);
 angular.module('insight.connection', []);
 angular.module('insight.currency', []);
 angular.module('insight.messages', []);
+
+angular.module('charts', []);
